@@ -44,11 +44,11 @@ a { color: inherit; }
   background: var(--pink); color: #10040d; font: 900 12px var(--font-geist-mono), monospace;
 }
 .identity span, .affiliateNotice {
-  color: #aeb7c4; font: 650 9px var(--font-geist-mono), monospace;
+  color: #aeb7c4; font: 650 11px var(--font-geist-mono), monospace;
   letter-spacing: .08em; text-transform: uppercase;
 }
 .mastNav { display: flex; gap: 34px; }
-.mastNav a { color: #c8ced7; font-size: 11px; font-weight: 650; text-decoration: none; }
+.mastNav a { color: #c8ced7; font-size: 13px; font-weight: 650; text-decoration: none; }
 .mastNav a:hover { color: var(--cyan); }
 .affiliateNotice { justify-self: end; color: var(--pink); text-align: right; }
 
@@ -84,7 +84,7 @@ a { color: inherit; }
 }
 .kicker, .sectionCode {
   margin: 0 0 22px; color: var(--cyan);
-  font: 700 10px var(--font-geist-mono), monospace; letter-spacing: .14em; text-transform: uppercase;
+  font: 700 12px var(--font-geist-mono), monospace; letter-spacing: .14em; text-transform: uppercase;
 }
 .cover h1 {
   max-width: 1400px; margin: 0; display: flex; flex-direction: column;
@@ -99,18 +99,18 @@ a { color: inherit; }
 .cover h1 span:last-child { color: var(--pink); font-size: clamp(66px, 8.5vw, 174px); font-weight: 900; }
 .coverThesis {
   max-width: 830px; margin: clamp(28px, 3.2vw, 52px) 0 0; color: #b2bcc9;
-  font-size: clamp(15px, 1.1vw, 20px); line-height: 1.7;
+  font-size: clamp(18px, 1.3vw, 24px); line-height: 1.65;
 }
 .coverAction { margin-top: 28px; display: flex; align-items: center; gap: 24px; }
 .coverAction p {
   max-width: 270px; margin: 0; color: #6e7a8b;
-  font: 9px/1.6 var(--font-geist-mono), monospace; text-transform: uppercase;
+  font: 11px/1.6 var(--font-geist-mono), monospace; text-transform: uppercase;
 }
 .affiliateLink {
   min-height: 54px; min-width: 250px; padding: 0 20px 0 24px;
   display: inline-flex; align-items: center; justify-content: space-between; gap: 26px;
   background: var(--cyan); border: 1px solid var(--cyan); color: #041011;
-  font-size: 13px; font-weight: 850; text-decoration: none;
+  font-size: 15px; font-weight: 850; text-decoration: none;
   transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
 }
 .affiliateLink b { font-size: 18px; }
@@ -135,7 +135,7 @@ a { color: inherit; }
   background: var(--pink); box-shadow: 0 0 28px rgba(255,26,173,.8);
 }
 .markLabel {
-  color: #aab5c2; font: 700 8px var(--font-geist-mono), monospace; letter-spacing: .1em; text-transform: uppercase;
+  color: #aab5c2; font: 700 10px var(--font-geist-mono), monospace; letter-spacing: .1em; text-transform: uppercase;
 }
 .markNorth { top: 0; left: 50%; transform: translateX(-50%); }
 .markEast { right: 0; top: 50%; transform: translateY(-50%); }
@@ -143,13 +143,13 @@ a { color: inherit; }
 .markWest { left: 0; top: 50%; transform: translateY(-50%); }
 .markStage > p {
   margin: 34px 0 0; color: #7f8a9a; text-align: center;
-  font: 9px/1.65 var(--font-geist-mono), monospace; text-transform: uppercase;
+  font: 11px/1.65 var(--font-geist-mono), monospace; text-transform: uppercase;
 }
 .coverStrip {
   grid-column: 2; padding: 0 clamp(32px,5.5vw,112px); display: flex; align-items: center; gap: 18px;
   border-top: 1px solid var(--line); background: #03050a;
 }
-.coverStrip span { color: #7f8a99; font: 650 8px var(--font-geist-mono), monospace; text-transform: uppercase; }
+.coverStrip span { color: #7f8a99; font: 650 10px var(--font-geist-mono), monospace; text-transform: uppercase; }
 .coverStrip i { flex: 1; height: 1px; background: linear-gradient(90deg, var(--pink), rgba(255,26,173,.05)); }
 
 .manifesto {
@@ -168,7 +168,7 @@ a { color: inherit; }
 .manifestoStatement { padding: clamp(64px,7vw,132px) clamp(32px,5.5vw,112px); }
 .manifesto .sectionCode { color: #8e1b70; }
 .manifesto h2, .checkpointIntro h2, .ecosystemLead h2, .distinction h2, .closing h2 {
-  margin: 0; font-size: clamp(52px,6.5vw,126px); line-height: .91; letter-spacing: -.07em;
+  margin: 0; font-size: clamp(58px,7vw,136px); line-height: .91; letter-spacing: -.07em;
 }
 .manifesto h2 span { color: #9698a0; }
 .manifestoNotes {
@@ -176,7 +176,7 @@ a { color: inherit; }
   display: flex; flex-direction: column; justify-content: flex-end; gap: 28px;
   border-left: 1px solid #cbcad0;
 }
-.manifestoNotes p { margin: 0; color: #363943; font-size: 15px; line-height: 1.76; }
+.manifestoNotes p { margin: 0; color: #363943; font-size: 18px; line-height: 1.7; }
 
 .checkpointSection { width: 100%; background: #080b12; border-bottom: 1px solid var(--line); }
 .checkpointIntro {
@@ -185,7 +185,7 @@ a { color: inherit; }
 }
 .checkpointIntro > p {
   max-width: 520px; margin: 0; color: #8994a3;
-  font: 10px/1.75 var(--font-geist-mono), monospace; text-transform: uppercase;
+  font: 12px/1.75 var(--font-geist-mono), monospace; text-transform: uppercase;
 }
 .checkpointList { border-top: 1px solid var(--line); }
 .checkpoint {
@@ -196,9 +196,9 @@ a { color: inherit; }
 .checkpoint:last-child { border-bottom: 0; }
 .checkpoint:hover { background: #0d111c; }
 .checkpointNumber { color: var(--pink); font: 800 13px var(--font-geist-mono), monospace; }
-.checkpointLabel { color: var(--cyan); font: 700 9px var(--font-geist-mono), monospace; letter-spacing: .12em; text-transform: uppercase; }
-.checkpoint h3 { margin: 0; font-size: clamp(27px,2.5vw,48px); line-height: 1.02; letter-spacing: -.05em; }
-.checkpoint > p { margin: 0; color: #a7b1bf; font-size: 14px; line-height: 1.72; }
+.checkpointLabel { color: var(--cyan); font: 700 11px var(--font-geist-mono), monospace; letter-spacing: .12em; text-transform: uppercase; }
+.checkpoint h3 { margin: 0; font-size: clamp(31px,2.8vw,54px); line-height: 1.02; letter-spacing: -.05em; }
+.checkpoint > p { margin: 0; color: #a7b1bf; font-size: 17px; line-height: 1.68; }
 
 .ecosystemSection { width: 100%; display: grid; grid-template-columns: minmax(340px,.66fr) minmax(0,1.34fr); border-bottom: 1px solid var(--line); }
 .ecosystemLead {
@@ -206,36 +206,36 @@ a { color: inherit; }
   background: var(--pink); color: #0b050a;
 }
 .ecosystemLead .sectionCode { color: #4d113c; }
-.ecosystemLead h2 { font-size: clamp(54px,6vw,112px); }
+.ecosystemLead h2 { font-size: clamp(60px,6.5vw,124px); }
 .ecosystemLead > p:last-child {
   max-width: 540px; margin: auto 0 0; padding-top: 50px; color: #531443;
-  font: 9px/1.7 var(--font-geist-mono), monospace; text-transform: uppercase;
+  font: 11px/1.7 var(--font-geist-mono), monospace; text-transform: uppercase;
 }
 .ecosystemList { background: #070a11; }
 .ecosystemRow {
-  min-height: 190px; padding: 28px clamp(30px,4.5vw,88px);
+  min-height: 210px; padding: 30px clamp(30px,4.5vw,88px);
   display: grid; grid-template-columns: 46px 92px minmax(250px,.7fr) minmax(300px,1fr) 190px;
   gap: clamp(20px,3vw,58px); align-items: center; border-bottom: 1px solid var(--line);
 }
 .ecosystemRow:last-child { border-bottom: 0; }
-.ecosystemCount { color: #667283; font: 700 10px var(--font-geist-mono), monospace; }
-.ecosystemCode { color: var(--cyan); font: 800 9px var(--font-geist-mono), monospace; letter-spacing: .1em; }
-.ecosystemRow h3 { margin: 0; font-size: clamp(23px,2vw,38px); line-height: 1.05; letter-spacing: -.045em; }
-.ecosystemRow p { margin: 0; color: #aab4c2; font-size: 13px; line-height: 1.68; }
-.ecosystemRow small { color: #758191; font: 8px/1.6 var(--font-geist-mono), monospace; text-transform: uppercase; text-align: right; }
+.ecosystemCount { color: #667283; font: 700 11px var(--font-geist-mono), monospace; }
+.ecosystemCode { color: var(--cyan); font: 800 11px var(--font-geist-mono), monospace; letter-spacing: .1em; }
+.ecosystemRow h3 { margin: 0; font-size: clamp(27px,2.3vw,44px); line-height: 1.05; letter-spacing: -.045em; }
+.ecosystemRow p { margin: 0; color: #aab4c2; font-size: 16px; line-height: 1.65; }
+.ecosystemRow small { color: #758191; font: 10px/1.6 var(--font-geist-mono), monospace; text-transform: uppercase; text-align: right; }
 
 .distinction { width: 100%; padding: clamp(64px,7vw,132px) clamp(32px,5.5vw,112px); background: var(--cyan); color: #041011; }
 .distinction .sectionCode { color: #075b5d; }
 .distinctionHeading { display: grid; grid-template-columns: 1fr; }
-.distinction h2 { max-width: 1500px; font-size: clamp(54px,7.5vw,148px); }
+.distinction h2 { max-width: 1500px; font-size: clamp(60px,7.8vw,156px); }
 .distinctionSides {
   margin-top: clamp(52px,6vw,100px); display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid rgba(4,16,17,.35);
 }
 .distinctionSides article { padding: 34px 0; display: grid; grid-template-columns: 210px 1fr; gap: 40px; }
 .distinctionSides article:first-child { padding-right: 56px; border-right: 1px solid rgba(4,16,17,.35); }
 .distinctionSides article:last-child { padding-left: 56px; }
-.distinctionSides span { color: #07595b; font: 800 9px/1.6 var(--font-geist-mono), monospace; text-transform: uppercase; }
-.distinctionSides p { margin: 0; font-size: clamp(17px,1.5vw,26px); line-height: 1.5; font-weight: 650; }
+.distinctionSides span { color: #07595b; font: 800 11px/1.6 var(--font-geist-mono), monospace; text-transform: uppercase; }
+.distinctionSides p { margin: 0; font-size: clamp(20px,1.7vw,30px); line-height: 1.5; font-weight: 650; }
 
 .closing {
   width: 100%; min-height: 640px; padding: clamp(64px,7vw,132px) clamp(32px,5.5vw,112px);
@@ -251,7 +251,7 @@ a { color: inherit; }
 .closingAction { display: flex; flex-direction: column; align-items: flex-start; gap: 24px; }
 .closingAction p {
   max-width: 380px; margin: 0; color: #778394;
-  font: 9px/1.7 var(--font-geist-mono), monospace; text-transform: uppercase;
+  font: 11px/1.7 var(--font-geist-mono), monospace; text-transform: uppercase;
 }
 
 .legalFooter {
@@ -261,10 +261,10 @@ a { color: inherit; }
 }
 .legalFooter b {
   display: block; margin-bottom: 8px; color: var(--pink);
-  font: 700 9px var(--font-geist-mono), monospace; text-transform: uppercase;
+  font: 700 11px var(--font-geist-mono), monospace; text-transform: uppercase;
 }
-.legalFooter p { max-width: 650px; margin: 0; color: #717c8c; font-size: 10px; line-height: 1.7; }
-.legalFooter > span { color: #596473; font: 8px var(--font-geist-mono), monospace; text-transform: uppercase; white-space: nowrap; }
+.legalFooter p { max-width: 650px; margin: 0; color: #717c8c; font-size: 12px; line-height: 1.7; }
+.legalFooter > span { color: #596473; font: 10px var(--font-geist-mono), monospace; text-transform: uppercase; white-space: nowrap; }
 
 @media (max-width: 1420px) {
   .coverBody { grid-template-columns: minmax(0, 1fr); }
@@ -306,7 +306,7 @@ a { color: inherit; }
   .manifesto { grid-template-columns: 52px 1fr; }
   .manifestoIndex { min-height: 360px; }
   .manifestoStatement, .manifestoNotes { padding: 52px 22px; }
-  .manifesto h2, .checkpointIntro h2, .ecosystemLead h2, .distinction h2, .closing h2 { font-size: clamp(43px,13vw,72px); }
+  .manifesto h2, .checkpointIntro h2, .ecosystemLead h2, .distinction h2, .closing h2 { font-size: clamp(48px,14vw,82px); }
   .manifestoNotes { gap: 22px; }
   .checkpointIntro { padding: 52px 22px; grid-template-columns: 1fr; gap: 28px; }
   .checkpoint { min-height: 0; padding: 34px 22px; grid-template-columns: 44px 1fr; gap: 14px 18px; }
@@ -328,20 +328,20 @@ a { color: inherit; }
 
 @media (min-width: 2200px) {
   .masthead { min-height: 90px; }
-  .identity span, .affiliateNotice, .mastNav a { font-size: 13px; }
+  .identity span, .affiliateNotice, .mastNav a { font-size: 15px; }
   .cover { grid-template-columns: 130px minmax(0,1fr); min-height: 1040px; grid-template-rows: 1fr 70px; }
   .cover h1 span:first-child { font-size: 250px; }
   .cover h1 em { font-size: 106px; }
   .cover h1 span:last-child { font-size: 210px; }
-  .coverThesis { max-width: 1050px; font-size: 28px; }
-  .coverAction p, .markStage > p, .sectionCode, .kicker { font-size: 14px; }
+  .coverThesis { max-width: 1050px; font-size: 32px; }
+  .coverAction p, .markStage > p, .sectionCode, .kicker { font-size: 16px; }
   .affiliateLink { min-height: 70px; min-width: 340px; font-size: 18px; }
   .precisionMark { width: 560px; }
   .manifesto { grid-template-columns: 130px minmax(0,1.35fr) minmax(460px,.65fr); }
-  .manifestoNotes p, .checkpoint > p, .ecosystemRow p { font-size: 20px; }
+  .manifestoNotes p, .checkpoint > p, .ecosystemRow p { font-size: 24px; }
   .checkpoint { grid-template-columns: 94px 180px minmax(420px,.8fr) minmax(520px,1.2fr); }
   .ecosystemRow { grid-template-columns: 70px 140px minmax(380px,.7fr) minmax(520px,1fr) 260px; }
-  .ecosystemCode, .ecosystemRow small, .checkpointLabel, .legalFooter p { font-size: 13px; }
+  .ecosystemCode, .ecosystemRow small, .checkpointLabel, .legalFooter p { font-size: 15px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
